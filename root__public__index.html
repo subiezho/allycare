@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>US Admissions AI</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>US Admissions AI</h1>
+        <p>Enter a student profile and receive a strategic US admissions report.</p>
+      </header>
+
+      <section class="panel">
+        <form id="admissions-form">
+          <label for="profileText">Student Profile *</label>
+          <textarea
+            id="profileText"
+            name="profileText"
+            placeholder="Example: Grade 11 student from Kazakhstan, GPA 3.9/4.0, SAT 1500, interested in Computer Science..."
+            required
+          ></textarea>
+
+          <label for="question">Specific Question (optional)</label>
+          <textarea
+            id="question"
+            name="question"
+            placeholder="Example: Which universities should I prioritize for full aid?"
+          ></textarea>
+
+          <div class="grid">
+            <div>
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Student name" />
+            </div>
+            <div>
+              <label for="citizenship">Citizenship</label>
+              <input id="citizenship" name="citizenship" type="text" placeholder="Country" />
+            </div>
+            <div>
+              <label for="currentGrade">Current Grade</label>
+              <input id="currentGrade" name="currentGrade" type="text" placeholder="9, 10, 11, 12" />
+            </div>
+            <div>
+              <label for="intendedMajors">Intended Major(s)</label>
+              <input id="intendedMajors" name="intendedMajors" type="text" placeholder="Computer Science, Economics" />
+            </div>
+            <div>
+              <label for="gpa">GPA</label>
+              <input id="gpa" name="gpa" type="number" min="0" max="4.33" step="0.01" placeholder="3.90" />
+            </div>
+            <div>
+              <label for="sat">SAT</label>
+              <input id="sat" name="sat" type="number" min="400" max="1600" step="10" placeholder="1500" />
+            </div>
+            <div>
+              <label for="act">ACT</label>
+              <input id="act" name="act" type="number" min="1" max="36" step="1" placeholder="33" />
+            </div>
+            <div>
+              <label for="toefl">TOEFL</label>
+              <input id="toefl" name="toefl" type="number" min="0" max="120" step="1" placeholder="105" />
+            </div>
+            <div>
+              <label for="ielts">IELTS</label>
+              <input id="ielts" name="ielts" type="number" min="0" max="9" step="0.5" placeholder="7.5" />
+            </div>
+            <div>
+              <label for="duolingo">Duolingo</label>
+              <input id="duolingo" name="duolingo" type="number" min="0" max="160" step="5" placeholder="135" />
+            </div>
+            <div>
+              <label for="budgetUsd">Annual Budget (USD)</label>
+              <input id="budgetUsd" name="budgetUsd" type="number" min="0" step="1000" placeholder="25000" />
+            </div>
+            <div>
+              <label for="weeklyHours">Weekly hours for extracurriculars</label>
+              <input id="weeklyHours" name="weeklyHours" type="number" min="1" max="60" step="1" placeholder="8" />
+            </div>
+            <div class="span-2">
+              <label for="opportunities">Available opportunities (labs, mentors, clubs, NGOs)</label>
+              <textarea
+                id="opportunities"
+                name="opportunities"
+                placeholder="Example: school robotics club, local NGO partner, mentor in data science"
+              ></textarea>
+            </div>
+            <div class="span-2">
+              <label for="constraints">Constraints (budget, travel, internet, family duties)</label>
+              <textarea
+                id="constraints"
+                name="constraints"
+                placeholder="Example: low budget, no travel outside city, 6 hours/week max"
+              ></textarea>
+            </div>
+            <div class="checks">
+              <label><input id="needFinancialAid" name="needFinancialAid" type="checkbox" /> Need financial aid</label>
+              <label><input id="isInternational" name="isInternational" type="checkbox" /> International applicant</label>
+              <label><input id="firstGen" name="firstGen" type="checkbox" /> First-generation student</label>
+              <label><input id="lowIncome" name="lowIncome" type="checkbox" /> Low-income background</label>
+            </div>
+          </div>
+
+          <button type="submit" id="submitBtn">Generate Strategic Report</button>
+        </form>
+      </section>
+
+      <section class="panel output" id="outputPanel" hidden>
+        <div class="output-head">
+          <h2>Admissions Strategy Report</h2>
+          <small id="meta"></small>
+        </div>
+        <pre id="reportText"></pre>
+      </section>
+
+      <section class="panel error" id="errorPanel" hidden>
+        <h2>Request Error</h2>
+        <p id="errorText"></p>
+      </section>
+    </main>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

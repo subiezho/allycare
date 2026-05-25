@@ -1,0 +1,668 @@
+{
+  "families": {
+    "AVCMS2": {
+      "code": "AVCMS2",
+      "circleName": "Семья Тест",
+      "lovedOneName": "Мама",
+      "createdAt": "2026-05-23T11:13:53.742Z",
+      "members": [
+        {
+          "id": "ca5372cbdc403f85",
+          "name": "Дана",
+          "role": "coordinator",
+          "joinedAt": "2026-05-23T11:13:53.742Z"
+        }
+      ],
+      "symptoms": [],
+      "tasks": []
+    },
+    "ZHQFPU": {
+      "code": "ZHQFPU",
+      "circleName": "Семья2",
+      "lovedOneName": "Папа",
+      "createdAt": "2026-05-23T11:13:53.764Z",
+      "members": [
+        {
+          "id": "ca97d85af0dc59f8",
+          "name": "Алмас",
+          "role": "coordinator",
+          "joinedAt": "2026-05-23T11:13:53.764Z"
+        }
+      ],
+      "symptoms": [
+        {
+          "id": "d16aaf7921e24b2e",
+          "type": "pain",
+          "note": "",
+          "memberName": "Алмас",
+          "createdAt": "2026-05-23T11:13:53.942Z"
+        }
+      ],
+      "tasks": []
+    },
+    "HAENF4": {
+      "code": "HAENF4",
+      "circleName": "А",
+      "lovedOneName": "МАМА",
+      "createdAt": "2026-05-23T11:14:57.612Z",
+      "members": [
+        {
+          "id": "a98d2fd012d98de2",
+          "name": "дана",
+          "role": "coordinator",
+          "joinedAt": "2026-05-23T11:14:57.612Z"
+        }
+      ],
+      "symptoms": [
+        {
+          "id": "ef7a734dfe612980",
+          "type": "confusion",
+          "note": "нахууу",
+          "memberId": "a98d2fd012d98de2",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T11:17:23.855Z"
+        },
+        {
+          "id": "b9ebb6ad88dc258d",
+          "type": "confusion",
+          "note": "",
+          "memberId": "a98d2fd012d98de2",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T11:17:14.198Z"
+        },
+        {
+          "id": "a74a08e4ebe94b54",
+          "type": "pain",
+          "note": "не хочет кушать",
+          "memberId": "a98d2fd012d98de2",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T11:16:26.494Z"
+        },
+        {
+          "id": "17124df6e7f29065",
+          "type": "pain",
+          "note": "",
+          "memberId": "a98d2fd012d98de2",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T11:15:30.192Z"
+        },
+        {
+          "id": "4f179bcac39af53a",
+          "type": "pain",
+          "note": "",
+          "memberId": "a98d2fd012d98de2",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T11:15:29.509Z"
+        },
+        {
+          "id": "01d1630f1aac2b97",
+          "type": "pain",
+          "note": "",
+          "memberId": "a98d2fd012d98de2",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T11:15:29.175Z"
+        },
+        {
+          "id": "e78f9acafee4a0fb",
+          "type": "pain",
+          "note": "",
+          "memberId": "a98d2fd012d98de2",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T11:15:27.876Z"
+        },
+        {
+          "id": "9a19f83f0f4e8334",
+          "type": "nausea",
+          "note": "",
+          "memberId": "a98d2fd012d98de2",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T11:15:26.809Z"
+        },
+        {
+          "id": "7722afb7f1e316c2",
+          "type": "good",
+          "note": "",
+          "memberId": "a98d2fd012d98de2",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T11:15:23.791Z"
+        },
+        {
+          "id": "d52eb2de4c090793",
+          "type": "weakness",
+          "note": "",
+          "memberId": "a98d2fd012d98de2",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T11:15:19.725Z"
+        },
+        {
+          "id": "317de4352f1cbbb5",
+          "type": "fall",
+          "note": "",
+          "memberId": "a98d2fd012d98de2",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T11:15:19.191Z"
+        },
+        {
+          "id": "42acfd9d83058827",
+          "type": "confusion",
+          "note": "",
+          "memberId": "a98d2fd012d98de2",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T11:15:18.675Z"
+        },
+        {
+          "id": "a9301b47aeeec42e",
+          "type": "other",
+          "note": "",
+          "memberId": "a98d2fd012d98de2",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T11:15:18.125Z"
+        },
+        {
+          "id": "459beba0a4b4970b",
+          "type": "confusion",
+          "note": "",
+          "memberId": "a98d2fd012d98de2",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T11:15:17.277Z"
+        },
+        {
+          "id": "4854ee43a81325fa",
+          "type": "other",
+          "note": "",
+          "memberId": "a98d2fd012d98de2",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T11:15:04.791Z"
+        },
+        {
+          "id": "b701be3c59e8a47e",
+          "type": "good",
+          "note": "",
+          "memberId": "a98d2fd012d98de2",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T11:15:03.908Z"
+        },
+        {
+          "id": "ee61206b11d731c8",
+          "type": "nausea",
+          "note": "",
+          "memberId": "a98d2fd012d98de2",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T11:15:03.309Z"
+        },
+        {
+          "id": "db911434aaebf550",
+          "type": "other",
+          "note": "",
+          "memberId": "a98d2fd012d98de2",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T11:15:02.808Z"
+        },
+        {
+          "id": "5f66d9683a60f530",
+          "type": "confusion",
+          "note": "",
+          "memberId": "a98d2fd012d98de2",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T11:15:02.377Z"
+        },
+        {
+          "id": "ae3fc1f23ddbd49b",
+          "type": "fall",
+          "note": "",
+          "memberId": "a98d2fd012d98de2",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T11:15:01.908Z"
+        },
+        {
+          "id": "e3a3409e62272bfd",
+          "type": "weakness",
+          "note": "",
+          "memberId": "a98d2fd012d98de2",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T11:15:01.426Z"
+        },
+        {
+          "id": "c00c4c81a54ba8fa",
+          "type": "pain",
+          "note": "",
+          "memberId": "a98d2fd012d98de2",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T11:15:00.908Z"
+        }
+      ],
+      "tasks": []
+    },
+    "D2B5ED": {
+      "code": "D2B5ED",
+      "circleName": "в",
+      "lovedOneName": "мама",
+      "createdAt": "2026-05-23T16:03:59.427Z",
+      "members": [
+        {
+          "id": "2df3f5a8365801f6",
+          "name": "дана",
+          "role": "coordinator",
+          "joinedAt": "2026-05-23T16:03:59.427Z"
+        }
+      ],
+      "symptoms": [],
+      "tasks": [
+        {
+          "id": "7a4ceb1899f9d523",
+          "title": "записать к терапевту",
+          "assignee": "Алмас",
+          "dueDate": "2026-05-30",
+          "status": "done",
+          "createdBy": "дана",
+          "createdAt": "2026-05-23T16:09:02.598Z",
+          "completedAt": "2026-05-23T16:09:27.054Z"
+        }
+      ]
+    },
+    "2PYJUV": {
+      "code": "2PYJUV",
+      "circleName": "в",
+      "lovedOneName": "мама",
+      "createdAt": "2026-05-23T17:08:52.136Z",
+      "members": [
+        {
+          "id": "06b6405690caea92",
+          "name": "дана",
+          "role": "coordinator",
+          "joinedAt": "2026-05-23T17:08:52.136Z"
+        }
+      ],
+      "symptoms": [
+        {
+          "id": "70f0c70b5aa85126",
+          "type": "fall",
+          "note": "хуево чувствует себя",
+          "memberId": "06b6405690caea92",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T17:09:12.373Z"
+        },
+        {
+          "id": "5462e2920bb43982",
+          "type": "nausea",
+          "note": "",
+          "memberId": "06b6405690caea92",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T17:09:00.888Z"
+        },
+        {
+          "id": "247cb277b6105218",
+          "type": "good",
+          "note": "",
+          "memberId": "06b6405690caea92",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T17:08:54.027Z"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "b7c02695443d79de",
+          "title": "записать кудат",
+          "assignee": "я",
+          "dueDate": null,
+          "status": "open",
+          "createdBy": "дана",
+          "createdAt": "2026-05-23T17:09:18.511Z",
+          "completedAt": null
+        }
+      ]
+    },
+    "PMGSJC": {
+      "code": "PMGSJC",
+      "circleName": "Ахметовы",
+      "lovedOneName": "мама",
+      "createdAt": "2026-05-23T17:12:43.104Z",
+      "members": [
+        {
+          "id": "560d68292e4cb502",
+          "name": "дана",
+          "role": "coordinator",
+          "joinedAt": "2026-05-23T17:12:43.104Z"
+        }
+      ],
+      "symptoms": [
+        {
+          "id": "f69a2f21afdd79ac",
+          "type": "confusion",
+          "note": "",
+          "memberId": "560d68292e4cb502",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T17:13:34.246Z"
+        },
+        {
+          "id": "a78eee71c8fa67c9",
+          "type": "nausea",
+          "note": "",
+          "memberId": "560d68292e4cb502",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T17:13:33.981Z"
+        },
+        {
+          "id": "040dbad1879ad980",
+          "type": "weakness",
+          "note": "",
+          "memberId": "560d68292e4cb502",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T17:13:33.614Z"
+        },
+        {
+          "id": "29e807f629e80dff",
+          "type": "fall",
+          "note": "",
+          "memberId": "560d68292e4cb502",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T17:13:33.148Z"
+        },
+        {
+          "id": "e44d6a105c2af7e5",
+          "type": "other",
+          "note": "",
+          "memberId": "560d68292e4cb502",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T17:13:32.748Z"
+        },
+        {
+          "id": "9362a222b3417cda",
+          "type": "nausea",
+          "note": "не пожрала и хуево чувствовала",
+          "memberId": "560d68292e4cb502",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T17:13:03.226Z"
+        },
+        {
+          "id": "c6bc1350e77bfac4",
+          "type": "good",
+          "note": "",
+          "memberId": "560d68292e4cb502",
+          "memberName": "дана",
+          "createdAt": "2026-05-23T17:12:50.414Z"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "0e90380b6dcb4513",
+          "title": "записать",
+          "assignee": "алих",
+          "dueDate": "2026-05-31",
+          "status": "open",
+          "createdBy": "дана",
+          "createdAt": "2026-05-23T17:13:14.835Z",
+          "completedAt": null
+        }
+      ]
+    },
+    "LTPWY4": {
+      "code": "LTPWY4",
+      "circleName": "ff",
+      "lovedOneName": "ff",
+      "createdAt": "2026-05-24T08:40:42.754Z",
+      "members": [
+        {
+          "id": "1dceb6bcabc26a86",
+          "name": "ff",
+          "role": "coordinator",
+          "joinedAt": "2026-05-24T08:40:42.754Z"
+        }
+      ],
+      "symptoms": [],
+      "tasks": []
+    },
+    "PFM55D": {
+      "code": "PFM55D",
+      "circleName": "в",
+      "lovedOneName": "в",
+      "createdAt": "2026-05-24T08:44:02.099Z",
+      "members": [
+        {
+          "id": "97e4fc84c8394a3c",
+          "name": "в",
+          "role": "coordinator",
+          "joinedAt": "2026-05-24T08:44:02.099Z"
+        }
+      ],
+      "symptoms": [],
+      "tasks": []
+    },
+    "CCGXRT": {
+      "code": "CCGXRT",
+      "circleName": "в",
+      "lovedOneName": "в",
+      "createdAt": "2026-05-24T08:46:16.451Z",
+      "members": [
+        {
+          "id": "371a8a5fa8d0743c",
+          "name": "в",
+          "role": "coordinator",
+          "joinedAt": "2026-05-24T08:46:16.451Z"
+        }
+      ],
+      "symptoms": [],
+      "tasks": []
+    },
+    "AK3EFS": {
+      "code": "AK3EFS",
+      "circleName": "Тест семья",
+      "lovedOneName": "Апа",
+      "createdAt": "2026-05-24T08:48:30.947Z",
+      "members": [
+        {
+          "id": "e4ed496b64ef3d5e",
+          "name": "Дана",
+          "role": "coordinator",
+          "joinedAt": "2026-05-24T08:48:30.947Z"
+        }
+      ],
+      "symptoms": [],
+      "tasks": [],
+      "medications": [
+        {
+          "id": "4f2678a3bd1951f9",
+          "patientId": "Апа",
+          "medicineName": "Аспирин",
+          "dosage": "500мг",
+          "dateTime": "2026-05-24T08:48:30.971Z",
+          "givenBy": "Дана",
+          "comment": "",
+          "createdAt": "2026-05-24T08:48:30.972Z",
+          "updatedAt": null
+        }
+      ]
+    },
+    "KSZYES": {
+      "code": "KSZYES",
+      "circleName": "хау",
+      "lovedOneName": "х",
+      "createdAt": "2026-05-24T08:50:38.705Z",
+      "members": [
+        {
+          "id": "e78b5fd8b2a5e46f",
+          "name": "лана",
+          "role": "coordinator",
+          "joinedAt": "2026-05-24T08:50:38.705Z"
+        }
+      ],
+      "symptoms": [],
+      "tasks": [],
+      "medications": []
+    },
+    "BK2D4P": {
+      "code": "BK2D4P",
+      "circleName": "Smoke Family",
+      "lovedOneName": "Апа",
+      "createdAt": "2026-05-24T09:06:58.249Z",
+      "members": [
+        {
+          "id": "63e19379651c0374",
+          "name": "Дана",
+          "role": "coordinator",
+          "joinedAt": "2026-05-24T09:06:58.249Z"
+        }
+      ],
+      "symptoms": [
+        {
+          "id": "2364d2f5288251f8",
+          "type": "good",
+          "intensity": 3,
+          "note": "проверка совместимости",
+          "memberName": "Дана",
+          "createdAt": "2026-05-24T09:09:23.831Z"
+        },
+        {
+          "id": "432a255bc36fa28c",
+          "type": "shortBreath",
+          "intensity": 9,
+          "note": "Одышка после прогулки",
+          "memberId": "63e19379651c0374",
+          "memberName": "Дана",
+          "createdAt": "2026-05-24T09:06:58.319Z"
+        }
+      ],
+      "tasks": [],
+      "medications": [
+        {
+          "id": "cb5559e1b43b6604",
+          "patientId": "Апа",
+          "medicineName": "Амлодипин",
+          "dosage": "5 мг",
+          "dateTime": "2026-05-24T09:06:58.335Z",
+          "givenBy": "Дана",
+          "comment": "",
+          "createdAt": "2026-05-24T09:06:58.335Z",
+          "updatedAt": null
+        }
+      ]
+    },
+    "429LUG": {
+      "code": "429LUG",
+      "circleName": "а",
+      "lovedOneName": "а",
+      "createdAt": "2026-05-24T09:17:04.663Z",
+      "members": [
+        {
+          "id": "3ee9429560139ea3",
+          "name": "а",
+          "role": "coordinator",
+          "joinedAt": "2026-05-24T09:17:04.663Z"
+        }
+      ],
+      "symptoms": [
+        {
+          "id": "f56318c25a181f28",
+          "type": "fall",
+          "intensity": 5,
+          "note": "",
+          "memberId": "3ee9429560139ea3",
+          "memberName": "а",
+          "createdAt": "2026-05-24T09:18:04.594Z"
+        },
+        {
+          "id": "21ff0de3e843cd52",
+          "type": "critical",
+          "intensity": 5,
+          "note": "",
+          "memberId": "3ee9429560139ea3",
+          "memberName": "а",
+          "createdAt": "2026-05-24T09:17:06.876Z"
+        }
+      ],
+      "tasks": [],
+      "medications": []
+    },
+    "SJ236X": {
+      "code": "SJ236X",
+      "circleName": "аа",
+      "lovedOneName": "а",
+      "createdAt": "2026-05-24T09:26:59.191Z",
+      "members": [
+        {
+          "id": "2460630e56f49528",
+          "name": "а",
+          "role": "coordinator",
+          "joinedAt": "2026-05-24T09:26:59.191Z"
+        }
+      ],
+      "symptoms": [],
+      "tasks": [],
+      "medications": []
+    },
+    "EU5XVA": {
+      "code": "EU5XVA",
+      "circleName": "авпсрмои",
+      "lovedOneName": "карп",
+      "createdAt": "2026-05-24T14:35:32.524Z",
+      "members": [
+        {
+          "id": "74530a83b7743e58",
+          "name": "Моро",
+          "role": "coordinator",
+          "joinedAt": "2026-05-24T14:35:32.524Z"
+        }
+      ],
+      "symptoms": [
+        {
+          "id": "7168db65bb45d451",
+          "type": "good",
+          "intensity": 5,
+          "note": "",
+          "memberId": "74530a83b7743e58",
+          "memberName": "Моро",
+          "createdAt": "2026-05-24T14:35:35.456Z"
+        }
+      ],
+      "tasks": [],
+      "medications": []
+    },
+    "8X844E": {
+      "code": "8X844E",
+      "circleName": "ахметовы",
+      "lovedOneName": "мама",
+      "createdAt": "2026-05-24T14:35:59.252Z",
+      "members": [
+        {
+          "id": "dd3cd07f66945b68",
+          "name": "дана",
+          "role": "coordinator",
+          "joinedAt": "2026-05-24T14:35:59.252Z"
+        }
+      ],
+      "symptoms": [
+        {
+          "id": "f0f5ff2bc49cbd59",
+          "type": "excellent",
+          "intensity": 1,
+          "note": "",
+          "memberId": "dd3cd07f66945b68",
+          "memberName": "дана",
+          "createdAt": "2026-05-24T14:36:18.494Z"
+        },
+        {
+          "id": "9187636f69133f96",
+          "type": "critical",
+          "intensity": 6,
+          "note": "",
+          "memberId": "dd3cd07f66945b68",
+          "memberName": "дана",
+          "createdAt": "2026-05-24T14:36:06.094Z"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "c0c22b333c354e4c",
+          "title": "щвамсвит",
+          "assignee": "Алмаз",
+          "dueDate": "2026-05-24",
+          "status": "open",
+          "createdBy": "дана",
+          "createdAt": "2026-05-24T14:37:06.746Z",
+          "completedAt": null
+        }
+      ],
+      "medications": []
+    }
+  }
+}
